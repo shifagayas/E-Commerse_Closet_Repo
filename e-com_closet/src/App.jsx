@@ -1,26 +1,21 @@
-import './App.css'
-import Navbarcomponent from './Components/NavBar'
-import Menu from './Components/Menu'
-import Pagination from './Components/Pagination'
-import Footer from './Components/Footer'
-// import LandingPage from './Pages/LandingPage'
-// import ProductListPage from './Pages/ProductListPage'
-import Products from './Pages/Products'
-import "bootstrap-icons/font/bootstrap-icons.css";
-
+// App.jsx
+import React from "react";
+import { Outlet } from "react-router-dom";
+import Navbarcomponent from './Components/NavBar';
+import Menu from './Components/Menu';
+import Footer from './Components/Footer';
 
 function App() {
   return (
     <>
-      <Navbarcomponent/>   
-      <Menu/>
-      {/* <LandingPage/> */}
-      {/* <ProductListPage/> */}
-      <Products/>
-      <Pagination/>
-      <Footer/>
-       </>
-  )
+      <Navbarcomponent />
+      <Menu />
+
+      <Outlet />
+
+      <Footer />
+    </>
+  );
 }
 
-export default App
+export default App;
