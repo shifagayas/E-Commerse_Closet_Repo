@@ -139,7 +139,6 @@
 
     // Category Side Bar Colunm
     .categorysidebar-col {
-
         margin: 0%;
         width: 30%;
         height: 100%;
@@ -148,7 +147,6 @@
 
     // Product Column
     .product-col {
-
         margin: 0%;
         padding-top: 22.5px;
         height: 70%;
@@ -510,9 +508,7 @@
         width: 380%;
     }
 
-    .categorysidebar-col {
-
-        border: 1px solid black;
+    .categorysidebar-col {       
         margin: 0%;
         width: 20%;
         height: 100%;
@@ -527,7 +523,6 @@
 
     .product-col {
 
-        border: 1px solid black;
         margin: 0%;
         width: 100%;
         padding-top: 22.5px;
@@ -567,80 +562,52 @@
 
 @media (min-width:769px) and (max-width: 1024px) {
 
-    // ------------------------------------------------------ Landing Page ------------------------------------------------//
+
+
+    // ------------------------------------------------------ ------------------------------------------------//
+
     .New-Arrivals-Banner {
-        width: 450%;
+        width: 280%;
         height: 945px;
-        background-color: rgba(247, 197, 159, 1);
     }
 
     .left-section {
-        width: 2730px;
+        width: 70%;
         height: 945px;
-        background-color: rgb(21, 26, 37);
-        float: left;
-        background-image: repeating-linear-gradient(-50deg,
-
-                rgba(255, 255, 255, 0.05) 2px,
-                rgba(255, 255, 255, 0.05) 27px,
-                transparent 18px,
-                transparent 50px);
     }
 
-
     .offer-content {
-        width: 956px;
-        height: 785px;
-        background-color: rgba(31, 41, 55, 1);
-        color: white;
-        margin: 5% 0% 0% 30%;
-        padding: 7% 10% 10% 10%;
-       
+        width: 60%;
+        height: 645px;
+
+    }
+
+    .offer-text {
+        font-size: 60px;
     }
 
     .text-new-arrival {
-        color: rgba(247, 197, 159, 1);
-        font-size: 530%
+        font-size: 60px;
     }
 
-    .Bannerbutton {
-        background-color: rgba(31, 41, 55, 1);
-        border-color: white;
-        padding: 2%;
-        color: white;
-        margin-top: 75px;
+    .right-circle {
+        width: 547px;
+        height: 547px;
+        margin-right: -2%;
+    }
+
+    .right-side-image {
+        margin-top: -117%;
+        width: 75%;
+        margin-left: 20%;
 
     }
 
-    .right-section {
-    width: 600px;
-    height: 645px;
-    float: left;
-}
+    .Main-section {
+        width: 280%;
+    }
 
-.right-circle {
-    width: 747px;
-    height: 747px;
-    background-color: white;
-    float: right;
-    margin-top: 28%;
-    margin-right: -80%;
-    border-radius: 50%;
-
-}
-
-.right-side-image {
-    margin-top: -850px;
-    margin-left: 460px;
-    height: 150%;
-}
-
-.Main-section {
-    width: 400%;
-    height: auto;
-}
-
-.week-highlight-grid {
+    .week-highlight-grid {
     width: 1748px;
     height: 935px;
     justify-self: center;
@@ -828,48 +795,6 @@
     margin-bottom: 10%;
 }
 
-    // ------------------------------------------------------ ------------------------------------------------//
-
-    .New-Arrivals-Banner {
-        width: 280%;
-        height: 945px;
-    }
-
-    .left-section {
-        width: 70%;
-        height: 945px;
-    }
-
-    .offer-content {
-        width: 60%;
-        height: 645px;
-
-    }
-
-    .offer-text {
-        font-size: 60px;
-    }
-
-    .text-new-arrival {
-        font-size: 60px;
-    }
-
-    .right-circle {
-        width: 547px;
-        height: 547px;
-        margin-right: -2%;
-    }
-
-    .right-side-image {
-        margin-top: -117%;
-        width: 75%;
-        margin-left: 20%;
-
-    }
-
-    .Main-section {
-        width: 280%;
-    }
 
 
 
@@ -892,13 +817,13 @@
     .search-bar-div {
         width: 130%;
         margin-top: 20px;
-        border: 1px solid black;
+       
     }
 
     .Nav-last-options {
         width: 70%;
         margin-top: 20px;
-        border: 1px solid black;
+       
     }
 
     // Menu Bar
@@ -928,7 +853,6 @@
 
     .categorysidebar-col {
 
-        border: 1px solid black;
         margin: 0%;
         width: 40%;
         height: 100%;
@@ -949,7 +873,6 @@
 
     .product-col {
 
-        border: 1px solid black;
         margin: 0%;
         padding-top: 22.5px;
         height: 50%;
@@ -997,13 +920,13 @@
     .search-bar-div {
         width: 120%;
         margin-top: 15px;
-        border: 1px solid black;
+      
     }
 
     .Nav-last-options {
         width: 70%;
         margin-top: 15px;
-        border: 1px solid black;
+       
     }
 
     // Menu Bar
@@ -1033,8 +956,6 @@
     }
 
     .categorysidebar-col {
-
-        border: 1px solid black;
         margin: 0%;
         width: 35%;
         height: 100%;
@@ -1054,8 +975,6 @@
     }
 
     .product-col {
-
-        border: 1px solid black;
         margin: 0%;
         padding-top: 22.5px;
 
@@ -1100,13 +1019,13 @@
     .search-bar-div {
         width: 100%;
         margin-top: 5px;
-        border: 1px solid black;
+       
     }
 
     .Nav-last-options {
         width: 70%;
         margin-top: 5px;
-        border: 1px solid black;
+        
     }
 
     // Menu Bar
@@ -1138,7 +1057,7 @@
 
     .categorysidebar-col {
 
-        border: 1px solid black;
+       
         margin: 0%;
         width: 30%;
         height: 100%;
@@ -1158,7 +1077,7 @@
 
     .product-col {
 
-        border: 1px solid black;
+        
         margin: 0%;
         padding-top: 22.5px;
         height: 50%;
