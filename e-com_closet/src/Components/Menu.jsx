@@ -12,7 +12,7 @@ const Menu = () => {
 
   const handleCategory = (category) => {
     setCategories([category]);
-    setCurrentPage(1);          // ✅ pagination reset
+    setCurrentPage(1);          
     navigate("/ProductListPage");
   };
 

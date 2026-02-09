@@ -132,7 +132,7 @@ const ProductData = [
         "productImage": bluedress,
         "brand": "H&M",
         "filter": "Women",
-        "size": ["S", "M", "L", "XL"],
+        "size": "Large",
         "numberOfOrders": 24,
         "isNewArrival": false
     },

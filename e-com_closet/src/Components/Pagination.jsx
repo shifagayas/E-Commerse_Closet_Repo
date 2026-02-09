@@ -9,7 +9,6 @@ const PaginationComponent = () => {
 
   const { filteredProducts } = useContext(FilteredProductsContext);
 
-  // ❗ safety check
   if (!filteredProducts || filteredProducts.length === 0) return null;
 
   const totalPages = Math.ceil(filteredProducts.length / productsPerPage);

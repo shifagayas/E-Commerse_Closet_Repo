@@ -12,7 +12,7 @@ import { FilterContext } from '../Context/FilterContext';
 import { SearchContext } from '../Context/SearchContext';
 import { FilteredProductsContext } from "../Context/FilteredProductContext";
 import { PaginationContext } from '../Context/PaginationContext';
-// import PaginationComponent from '../Components/Pagination';
+
 
 
 const Products = () => {

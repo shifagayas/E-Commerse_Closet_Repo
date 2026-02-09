@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import summercollectionbanner from '../assets/images/summercollectionbanner.png';
 
 export default function Landingpagesummercollection() {
-  const targetDate = new Date("2026-02-16T00:00:00"); // Change to your desired date
+  const targetDate = new Date("2026-02-16T00:00:00");
   const [timeLeft, setTimeLeft] = useState({});
 
   useEffect(() => {
